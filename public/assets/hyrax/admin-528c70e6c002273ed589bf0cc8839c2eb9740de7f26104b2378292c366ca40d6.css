@@ -1,0 +1,219 @@
+/* line 1, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/vendor/assets/stylesheets/morris.js/0.5.1/morris.css */
+.morris-hover {
+  position: absolute;
+  z-index: 1000;
+}
+
+/* line 1, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/vendor/assets/stylesheets/morris.js/0.5.1/morris.css */
+.morris-hover.morris-default-style {
+  border-radius: 10px;
+  padding: 6px;
+  color: #666;
+  background: rgba(255, 255, 255, 0.8);
+  border: solid 2px rgba(230, 230, 230, 0.8);
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* line 1, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/vendor/assets/stylesheets/morris.js/0.5.1/morris.css */
+.morris-hover.morris-default-style .morris-hover-row-label {
+  font-weight: bold;
+  margin: 0.25em 0;
+}
+
+/* line 2, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/vendor/assets/stylesheets/morris.js/0.5.1/morris.css */
+.morris-hover.morris-default-style .morris-hover-point {
+  white-space: nowrap;
+  margin: 0.1em 0;
+}
+
+/* line 14, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.tabs {
+  margin-top: 44px;
+  position: relative;
+}
+
+/* line 19, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.nav-tabs {
+  border-bottom: 0;
+  margin-bottom: 0;
+  margin-top: -44px;
+  padding: 0 5px;
+}
+
+/* line 26, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.nav-tabs > li > a {
+  border-top: 2px solid transparent;
+}
+
+/* line 30, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+  border-top: 2px solid #337ab7;
+}
+
+/* The #masthead selector below could (and ideally, should) be removed if we can
+ * replace the "navbar-static-top" class with "navbar-fixed-top" for the Admin UI only
+ */
+/* line 38, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+#masthead {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+@media only screen and (max-width: 767px) {
+  /* line 38, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+  #masthead {
+    position: initial;
+  }
+}
+
+/* line 49, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+body {
+  background-color: #f0f0f0;
+  padding-top: 51px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 49, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+  body {
+    padding-top: 0;
+  }
+}
+
+/* This is needed in Chrome for the admin/admin_sets edit view to render the participants tab
+ * Without this the contents of that tab flow off the right-hand side of the screen
+ * (The other containers on that page have `float: left` except for the fieldset.)
+ */
+/* line 62, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+fieldset {
+  float: left;
+}
+
+/* line 66, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+#content-wrapper {
+  padding-bottom: 0;
+}
+/* line 69, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+#content-wrapper.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 75, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.main-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f0f0f0;
+}
+
+/* line 81, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.main-header {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+/* line 85, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.main-header h1 {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+/* line 91, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.main-header .fa {
+  color: #555555;
+  margin-right: 5px;
+}
+
+/* line 97, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.sidebar {
+  background-color: #686868;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  position: fixed;
+  top: 51px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 97, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+  .sidebar {
+    position: initial;
+  }
+}
+/* line 112, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.sidebar a {
+  color: #ffffff;
+}
+/* line 116, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.sidebar a:hover {
+  color: #000000;
+}
+
+/* line 121, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.admin-sidebar {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 125, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.admin-sidebar li .fa {
+  margin-right: 12px;
+}
+
+/* line 130, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.nav-pills > li > a {
+  border-radius: 0;
+  padding: 15px 10px 15px 15px;
+}
+/* line 134, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.nav-pills > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* line 140, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: #505050;
+}
+
+/* line 146, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 150, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.panel {
+  border: 0;
+  float: left;
+  width: 100%;
+}
+/* line 155, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.panel .panel-heading,
+.panel .panel-footer,
+.panel .panel-body {
+  float: left;
+  width: 100%;
+}
+/* line 162, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.panel .panel-title {
+  color: #4e4a42;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* line 171, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.panel.panel-default.labels {
+  border-top: 1px solid #ddd;
+  margin-bottom: 0;
+}
+
+/* line 176, /Users/budak/.rvm/gems/ruby-2.4.2@geo/gems/hyrax-1.0.5/app/assets/stylesheets/hyrax/admin.scss */
+.spacer {
+  margin-bottom: 5px;
+}
